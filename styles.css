@@ -26,6 +26,19 @@ body {
   background: transparent;
   border-color: transparent;
   color: white;
+  border: 0px;
+  border-bottom: none;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inner {
+	border: 0px;
+}
+.btn-navbar {
+	border: 0px;
 }
 
 .navbar li { color: #000 } 
@@ -33,5 +46,5 @@ body {
 #mainTitle {
 	font-size: 94px;
 	text-align: center;
-	color: green;
+	color: rgba(192, 57, 43,1.0);
 }
