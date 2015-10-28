@@ -27,15 +27,15 @@ body {
   border-color: transparent;
   color: white;
   border: 0px;
-  border-bottom: none;
+  border-bottom: transparent;
 }
 
-.navbar-default {
+.navbar-header {
 	background-color: transparent;
 	border-color: transparent;
 }
 .navbar-inner {
-	border: 0px;
+	background: transparent;
 }
 .btn-navbar {
 	border: 0px;
