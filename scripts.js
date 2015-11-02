@@ -16,11 +16,21 @@ $(function(){
 	        });
 	        //alert(index);
 	      });
-	  
+
 	  	$('.tooltip-carousel').mouseenter(function(){
 	      $(this).popover('show');
 	    }).mouseleave(function(){
 	      $(this).popover('hide');
 	    });
 
+			// $.ajax({
+  		// type: 'GET',
+  		// url:"  ",
+  		// dataType: 'jsonp',
+  		// crossDomain: true,
+  		// success: function(data){
+      //   console.log(data)
+			//
+			// 	};
+			// });
 })

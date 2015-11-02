@@ -5,3 +5,55 @@
   height: 1000px;
   width: 100%;
 }
+/*#poop{
+  background-image: url("imageedit_1_4438128899.jpg");
+  background-repeat: no-repeat;
+  background-size: 110% 70%;
+  height: 1000px;
+  width: 100%;
+}
+*/
+body {
+	background: url('imageedit_1_4438128899.jpg');
+	background-size: cover;
+	padding-top: 50px;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+	margin: 0px;
+
+}
+
+.navbar {
+	/*position: relative;*/
+	z-index: 2;
+	width: 100%;
+	/*background-color: none;*/
+  background: transparent;
+  border-color: transparent;
+  color: white;
+  border: 0px;
+  border-bottom: none;
+}
+
+
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inner {
+	border: 0px;
+}
+.btn-navbar {
+	border: 0px;
+}
+
+.navbar li { color: #000 }
+
+#mainTitle {
+	font-size: 94px;
+	text-align: center;
+	color: rgba(192, 57, 43,1.0);
+}
