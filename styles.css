@@ -17,7 +17,15 @@ body {
 	margin: 0px;
 }
 
+#treeimg {
+	max-width: auto;
+}
 
+.descTxt {
+	color: green;
+	text-align: center;
+	font-size: 16px;
+}
 
 .navbar {
 	/*position: relative;*/
