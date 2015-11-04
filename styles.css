@@ -8,16 +8,7 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
-<<<<<<< HEAD
-hr {
-    max-width: 50px;
-    border-color: #C40F0F;
-    border-width: 3px;
-}
 
-hr.light {
-    border-color: #fff;
-=======
 #treeimg {
 	max-width: auto;
 }
@@ -26,7 +17,7 @@ hr.light {
 	color: green;
 	text-align: center;
 	font-size: 16px;
->>>>>>> master
+
 }
 
 a {
