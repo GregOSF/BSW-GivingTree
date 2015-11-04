@@ -9,6 +9,31 @@ $(function(){
 	   //      });
 	   //    });
 
+
+	      $('#carousel-example-generic').on('slid.bs.carousel', function () {
+	        var index = $(this).find('.carousel-inner > .item.active').index();
+	        $(this).find('.caraousel-tooltip-item').eq(index).fadeIn(function(){
+	        $(this).addClass('active');
+	        });
+	        //alert(index);
+	      });
+
+	  	$('.tooltip-carousel').mouseenter(function(){
+	      $(this).popover('show');
+	    }).mouseleave(function(){
+	      $(this).popover('hide');
+	    });
+
+			// $.ajax({
+  		// type: 'GET',
+  		// url:"  ",
+  		// dataType: 'jsonp',
+  		// crossDomain: true,
+  		// success: function(data){
+      //   console.log(data)
+			//
+			// 	};
+			// });
 	   //    $('#carousel-example-generic').on('slid.bs.carousel', function () {
 	   //      var index = $(this).find('.carousel-inner > .item.active').index();
 	   //      $(this).find('.caraousel-tooltip-item').eq(index).fadeIn(function(){
@@ -16,12 +41,12 @@ $(function(){
 	   //      });
 	   //      //alert(index);
 	   //    });
-	  
+
 	  	// $('.tooltip-carousel').mouseenter(function(){
 	   //    $(this).popover('show');
 	   //  }).mouseleave(function(){
 	   //    $(this).popover('hide');
 	   //  });
 	$('[data-toggle="tooltip"]').tooltip();
-	
+
 })
