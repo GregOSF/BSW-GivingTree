@@ -9,44 +9,59 @@
     <meta name="author" content="">
     <title>BSW - The Giving Tree</title>
     <!-- Bootstrap Core CSS -->
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">    <!-- Custom Fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" type="text/css">
-    <!-- Plugin CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css" type="text/css">
-    <!-- Custom CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
+
+
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
-<body id="page-top">
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="http://www.besomeoneworldwide.org/">
-                  <img alt="Brand" src="rsz_besomon.png">
-                </a>
-            </div>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.besomeoneworldwide.org/">
+            <img alt="Brand" src="rsz_besomon.png">
+          </a>
         </div>
+      </div>
     </nav>
-    <!-- header -->
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <h1>The Giving Tree</h1>
+     <div class="jumbotron" id="jumbo">
+            <img src="imageedit_1_4438128899.jpg" class="img-responsive">    
+        </div>
+    <div class="container">
+       
+    
+        
+        
+            <!-- <img src="imageedit_1_4438128899.jpg"> -->
+        
+
+    <div id="water">
+
+    </div>
+    <div id="education">
+        
+    </div>
+    <div id= "ops">
+        
+    </div>
+    
+    <!-- giving tree -->
+        <div class="row">
+            <div class="col-sm-4" id="givingtree">
+                <!-- <img src="rsz_treedraft7.png" class="img-responsive" usemap="tree"> -->
+                <!-- <map name="treemap"> -->
+
+                <img id="Image-Maps-Com-image-maps-2015-11-11-193650" src="rsz_treedraft7.png" border="0" width="1280" height="930" orgWidth="1280" orgHeight="930" usemap="#image-maps-2015-11-11-193650" alt="" />
+                <map name="image-maps-2015-11-11-193650" id="ImageMapsCom-image-maps-2015-11-11-193650">
+                <area shape="rect" coords="1278,928,1280,930" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
+                <area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="793,250,757,257,727,278,706,308,699,344,706,380,727,410,757,431,793,438,829,431,859,410,880,380,887,344,880,308,859,278,829,257" style="outline:none;" target="_self"     />
+                <area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="444,448,405,456,372,478,350,511,342,550,350,589,372,622,405,644,444,652,483,644,516,622,538,589,546,550,538,511,516,478,483,456" style="outline:none;" target="_self"     />
+                <area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="829,550,785,559,748,583,724,620,715,664,724,708,748,745,785,769,829,778,873,769,910,745,934,708,943,664,934,620,910,583,873,559" style="outline:none;" target="_self"     />
+                </map>
+
             </div>
         </div>
-    </header>
-    <div class="jumbotron">
-        <div class="container">
-            <img src="imageedit_1_4438128899.jpg">
-        </div>
-    </div>
-
-    <!-- giving tree -->
-    <section id="tree">
-      <!-- <h1>This is where the tree goes</h1> -->
-    </section>
 
     <!-- JustGiving API  -->
     <section class="no-padding" id="graph">
@@ -73,10 +88,13 @@
             </div>
         </div>
     </section>
-
+    </div>
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-
+    <script src="https://raw.githubusercontent.com/davidjbradshaw/imagemap-resizer/master/js/imageMapResizer.min.js"></script>
+    <script type="text/javacript">
+        $('map').imageMapResize();
+    </script>
     <!-- Bootstrap Core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 
