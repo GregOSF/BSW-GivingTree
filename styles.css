@@ -8,16 +8,14 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
 }
 
-
-#treeimg {
-	max-width: auto;
+hr {
+    max-width: 50px;
+    border-color: #C40F0F;
+    border-width: 3px;
 }
 
-.descTxt {
-	color: green;
-	text-align: center;
-	font-size: 16px;
-
+hr.light {
+    border-color: #fff;
 }
 
 a {
