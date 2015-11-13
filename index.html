@@ -10,8 +10,6 @@
     <title>BSW - The Giving Tree</title>
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
-
-
     <link rel="stylesheet" href="styles.css" type="text/css">
 </head>
 
@@ -25,42 +23,35 @@
         </div>
       </div>
     </nav>
-     <div class="jumbotron" id="jumbo">
-            <img src="imageedit_1_4438128899.jpg" class="img-responsive">    
-        </div>
+<!--     <div class="jumbotron" id="jumbo">
+        <img src="imageedit_1_4438128899.jpg" class="img-responsive">    
+    </div> -->
     <div class="container">
-       
-    
-        
-        
-            <!-- <img src="imageedit_1_4438128899.jpg"> -->
-        
+        <div id="water">
 
-    <div id="water">
-
-    </div>
-    <div id="education">
-        
-    </div>
-    <div id= "ops">
-        
-    </div>
-    
-    <!-- giving tree -->
+        </div>
+        <div id="education">
+            
+        </div>
+        <div id= "ops">
+            
+        </div>
+       <!-- giving tree -->
         <div class="row">
-            <div class="col-sm-4" id="givingtree">
+            <div class="col-lg-offset-4" id="givingtree">
                 <!-- <img src="rsz_treedraft7.png" class="img-responsive" usemap="tree"> -->
                 <!-- <map name="treemap"> -->
 
-                <img id="Image-Maps-Com-image-maps-2015-11-11-193650" src="rsz_treedraft7.png" border="0" width="1280" height="930" orgWidth="1280" orgHeight="930" usemap="#image-maps-2015-11-11-193650" alt="" />
-                <map name="image-maps-2015-11-11-193650" id="ImageMapsCom-image-maps-2015-11-11-193650">
-                <area shape="rect" coords="1278,928,1280,930" alt="Image Map" style="outline:none;" title="Image Map" href="http://www.image-maps.com/index.php?aff=mapped_users_0" />
-                <area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="793,250,757,257,727,278,706,308,699,344,706,380,727,410,757,431,793,438,829,431,859,410,880,380,887,344,880,308,859,278,829,257" style="outline:none;" target="_self"     />
-                <area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="444,448,405,456,372,478,350,511,342,550,350,589,372,622,405,644,444,652,483,644,516,622,538,589,546,550,538,511,516,478,483,456" style="outline:none;" target="_self"     />
-                <area  alt="" title="" href="http://www.image-maps.com/" shape="poly" coords="829,550,785,559,748,583,724,620,715,664,724,708,748,745,785,769,829,778,873,769,910,745,934,708,943,664,934,620,910,583,873,559" style="outline:none;" target="_self"     />
+<!--                 <img id="Image-Maps-Com-image-maps-2015-11-11-193650" src="rsz_treedraft7.png" border="0" width="1280" height="930" orgWidth="1280" orgHeight="930" usemap="#image-maps-2015-11-11-193650" alt="" /> -->
+                <img name="mapOfTree" src="rsz_treedraft7.png" usemap="#treemap" border="0" width="100%" />
+                <map name="treemap">
+                    <area class="ornaments" id="edu" href="education.html" shape="poly" coords="793,250,757,257,727,278,706,308,699,344,706,380,727,410,757,431,793,438,829,431,859,410,880,380,887,344,880,308,859,278,829,257" title="poop" data-toggle="tooltip" data-placement="bottom" data-container="area"/>
+                    <area class="ornaments" id="water" href="water.html" shape="poly" coords="444,448,405,456,372,478,350,511,342,550,350,589,372,622,405,644,444,652,483,644,516,622,538,589,546,550,538,511,516,478,483,456" title="poop" data-toggle="tooltip" data-placement="bottom" data-container="area"/>
+                    <area class="ornaments" id="ops" href="teachers.html" shape="poly" coords="829,550,785,559,748,583,724,620,715,664,724,708,748,745,785,769,829,778,873,769,910,745,934,708,943,664,934,620,910,583,873,559" title="poop" data-toggle="tooltip" data-placement="bottom" data-container="area"/>
                 </map>
 
             </div>
+
         </div>
 
     <!-- JustGiving API  -->
@@ -91,20 +82,21 @@
     </div>
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-    <script src="https://raw.githubusercontent.com/davidjbradshaw/imagemap-resizer/master/js/imageMapResizer.min.js"></script>
-    <script type="text/javacript">
+    <script type="text/javascript" src="imageMapResizer.min.js"></script>
+    <script type="text/javascript">
         $('map').imageMapResize();
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
     <!-- Bootstrap Core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
-
+    <script type="text/javascript" src="scripts.js"></script>
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
 
     <!-- Custom Theme JavaScript -->
-    <script src="js/creative.js"></script>
+    
 
 
 </body>
