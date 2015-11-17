@@ -1,22 +1,18 @@
 angular.module('givingTree', ['ngRoute'])
 
 
-	.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+	.config(['$routeProvider', function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'templates/search.html',
+        templateUrl: '../views/templates/givingtree.html',
         controller: 'MainCtrl'
       })
 
-      .when('/favorites', {
-        templateUrl: 'templates/favorites.html',
-        controller: 'FavoritesCtrl'
-      });
+      // .when('/favorites', {
+      //   templateUrl: 'templates/favorites.html',
+      //   controller: 'FavoritesCtrl'
+      // });
 
-    $locationProvider.html5Mode({
-      enabled: true,
-      requireBase: false
-    });
   }])
 
 	.controller('MainCtrl', ['$scope', '$http', function ($scope, $http) {
