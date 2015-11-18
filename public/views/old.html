@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="givingTree">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>BSW - The Giving Tree</title>
+    
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+    <!-- ngRoute -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-route.min.js"></script>
+
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="public\styles\styles.css" type="text/css">
+
+</head>
+
+<body ng-Controller="MainCtrl">
+    <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://www.besomeoneworldwide.org/">
+            <img alt="Brand" src="\images\rsz_besomon.png">
+          </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- JUMBOTRON -->
+    <!-- <div class="jumbotron" id="jumbo">
+        <img src="imageedit_1_4438128899.jpg" class="img-responsive">    
+    </div> -->
+    <div class="container" ng-view>
+        
+    <!-- THE GIVING TREE -->
+        
+    <!-- JustGiving API  -->
+    <section class="no-padding" id="graph">
+      <!-- <h1>This is where the graph goes</h1> -->
+    </section>
+
+    <!-- contact info -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="primary">
+                    <p>77 DELANCEY ST, NEW YORK, NY, 10002, UNITED STATES</p>
+                </div>
+                <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <!-- <i class="fa fa-phone fa-3x wow bounceIn"></i> -->
+                    <p>+1 (718) 736-5881</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <!-- <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i> -->
+                    <p><a href="mailto:INFO@BESOMEONEWORLDWIDE.ORG">INFO@BESOMEONEWORLDWIDE.ORG</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+
+    <!-- Bootstrap Tooltip Tether Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
+
+    <!-- image map resizer library -->
+    <script type="text/javascript" src="public\scripts\imageMapResizer.min.js"></script>
+
+    <!-- Custom Script -->
+    <script type="text/javascript" src="public\scripts\scripts.js"></script>
+
+
+</body>
+
+</html>

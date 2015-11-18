@@ -9,8 +9,9 @@ body {
     margin-top: -15px;
 }
 
-#treeimg {
-	max-width: auto;
+#mapOfTree {
+    height:auto;
+    max-width: 100%;
 }
 
 .descTxt {
@@ -24,8 +25,8 @@ body {
     background-color: rgba(0,0,0,0);
 }
 #givingtree {
-    width: auto;
-    height: auto;
+    height:auto;
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -43,5 +44,61 @@ body {
     background-color: white;
     color: white;
 }
+
+#title{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.charity{
+
+    border: solid 3px ;
+    min-height: 300px;
+    min-width: 400px;
+    text-align: center;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+
+
+
+}
+
+#allDonations{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 75px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
