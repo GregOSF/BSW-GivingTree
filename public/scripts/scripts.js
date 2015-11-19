@@ -1,6 +1,21 @@
-$(function(){
+angular.module('givingTree', ['ngRoute'])
 
-	// BOOTSTRAP TOOLTIP
-	$('[data-toggle="tooltip"]').tooltip();
 
-})
+	.config(['$routeProvider', function ($routeProvider) {
+    $routeProvider
+      .when('/', {
+        templateUrl: './public/views/templates/givingtree.html',
+        controller: 'MainCtrl'
+      });
+  }])
+
+	.controller('MainCtrl', ['$scope', '$http', function($scope, $http) {
+		    // controller logic
+		    $('[data-toggle="tooltip"]').tooltip();
+        var $map = $('#treemap')
+        $map.imageMapResize();
+        
+
+	}])
+
+
