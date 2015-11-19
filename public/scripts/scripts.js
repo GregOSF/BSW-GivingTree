@@ -11,8 +11,10 @@ angular.module('givingTree', ['ngRoute'])
 
 	.controller('MainCtrl', ['$scope', '$http', function($scope, $http) {
 		    // controller logic
-        $('map').imageMapResize();
 		    $('[data-toggle="tooltip"]').tooltip();
+        var $map = $('#treemap')
+        $map.imageMapResize();
+        
 
 	}])
 

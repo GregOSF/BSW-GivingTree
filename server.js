@@ -1,8 +1,8 @@
 var express = require('express');
 var app = express();
 
-app.use('/images', express.static(__dirname + '/images'));
 app.use('/public', express.static(__dirname + '/public'));
+app.use('/images', express.static(__dirname + '/images'));
 app.use('/node_modules', express.static(__dirname + '/node_modules'));
 
 // Homepage route
@@ -12,17 +12,17 @@ app.get('/',function(req,res){
 
 // Water route
 app.get('/water',function(req,res){
-    res.sendFile('water.html',{'root':__dirname + '/public/views'});
+    res.sendFile('water.html',{'root':__dirname + '/public/views/templates'});
 })
 
 // Education route
 app.get('/education',function(req,res){
-    res.sendFile('education.html',{'root':__dirname + '/public/views'});
+    res.sendFile('education.html',{'root':__dirname + '/public/views/templates'});
 })
 
 // Operations route
 app.get('/operations',function(req,res){
-    res.sendFile('teachers.html',{'root':__dirname + '/public/views'});
+    res.sendFile('teachers.html',{'root':__dirname + '/public/views/templates'});
 })
 
 

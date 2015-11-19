@@ -17,15 +17,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-route.min.js"></script>
 
 
+
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
-
+    <!-- animate.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <!-- ionicon css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- font-awesome css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="public\styles\styles.css" type="text/css">
 
 </head>
+<body>
 
-<body ng-Controller="MainCtrl">
     <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -35,69 +41,85 @@
         </div>
       </div>
     </nav>
-    <!-- JUMBOTRON -->
-    <!-- <div class="jumbotron" id="jumbo">
-        <img src="imageedit_1_4438128899.jpg" class="img-responsive">    
-    </div> -->
-    <div class="container" ng-view>
-        <div ng-include="templates/givingtree.html"></div>
-<!--         <div id="water">
+    </br>
+    </br>
 
-        </div>
-        <div id="education">
-            
-        </div>
-        <div id= "ops"> -->
-            
-        
-       <!-- THE GIVING TREE -->
-        
-    <!-- JustGiving API  -->
-    <section class="no-padding" id="graph">
-      <!-- <h1>This is where the graph goes</h1> -->
-    </section>
+            <section class="section--yellow wow fadeInLeft" id="head" data-wow-duration="2s">
 
-    <!-- contact info -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>77 DELANCEY ST, NEW YORK, NY, 10002, UNITED STATES</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <!-- <i class="fa fa-phone fa-3x wow bounceIn"></i> -->
-                    <p>+1 (718) 736-5881</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <!-- <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i> -->
-                    <p><a href="mailto:INFO@BESOMEONEWORLDWIDE.ORG">INFO@BESOMEONEWORLDWIDE.ORG</a></p>
-                </div>
+                <h1>The Giving Tree</h1>
+
+            </section>
+            
+
+            <div class="clear"></div>
+            
+            <!-- 3 COLUMN DEMO  -->     
+            <div class="col_half"> 
+                <section class="section--green wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                    <center><i class="ionicons ion-waterdrop"></i></center><br>
+                    <p>Water</p>
+                </section>
             </div>
-        </div>
-    </section>
-    </div>
+            
+            <div class="col_half end"> 
+                <section class="section--blue wow fadeInRight" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                    <center><i class="ionicons ion-ios-book-outline"></i></center><br>
+                    <p>Education</p>
+                </section>        
+            </div>
+            
+            <div class="col_half"> 
+                <section class="section--purple wow fadeInRight" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                    <center><i class="ionicons ion-ios-gear-outline"></i></center><br>
+                    <p>Operations</p>
+                </section>        
+            </div>
+
+            <div class="col_half end"> 
+                <section class="section--red wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
+                    <center><i class="fa fa-diamond"></i></center><br>
+                    <p>Diamonds</p>
+                </section>        
+            </div>
+
+            <div class="clear"></div>
+            <!-- END / 3 COLUMN DEMO -->
+            
+            <div class="service-section">
+                <!-- <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">                     -->
+<!--                         <figure>        
+                            <img src="http://lorempixel.com/output/food-q-c-600-400-1.jpg" width="270" height="180"></img>
+                        </figure>  -->              
+                <!-- </div> -->
+
+<!--                 <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">    
+                            <img src="http://lorempixel.com/output/food-q-c-600-400-2.jpg" width="270" height="180"></img>  
+                </div> -->
+
+<!--                 <div class="wow_imgage end wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+            <img src="http://lorempixel.com/output/food-q-c-600-400-3.jpg" width="270" height="180"></img>
+                </div> -->
+                </div>
+          <!--.SERVICES SECTION-->
+                <div class="clear"></div>
+                
+                <section class="section--yellow wow fadeInDown" id="footer" data-wow-duration="1s">
+                    <center><h1>Contact Information</h1></center>
+                </section>
+                      
+
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 
-    <!-- image map resizer library -->
-    <script type="text/javascript" src="public\scripts\imageMapResizer.js"></script>
-    
-    <script type="text/javascript">
-        $('map').imageMapResize();
-    </script>
-
-    <!-- Bootstrap Tooltip Tether Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript" src="public\scripts\script2.js"></script>
     <!-- Custom Script -->
     <script type="text/javascript" src="public\scripts\scripts.js"></script>
 
-</body>
 
-</html>
+</body>
+</html>    
