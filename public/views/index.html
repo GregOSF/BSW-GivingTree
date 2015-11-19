@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="givingTree">
 
 <head>
     <meta charset="utf-8">
@@ -7,96 +7,119 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+
     <title>BSW - The Giving Tree</title>
+    
+    <!-- Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+
+    <!-- ngRoute -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.1/angular-route.min.js"></script>
+
+
+
     <!-- Bootstrap Core CSS -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"> 
-    <link rel="stylesheet" href="..\styles\styles.css" type="text/css">
-</head>
+    <!-- animate.css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.4.0/animate.min.css">
+    <!-- ionicon css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- font-awesome css-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="public\styles\styles.css" type="text/css">
 
+</head>
 <body>
+
     <nav class="navbar navbar-inverse navbar-fixed-top" id="nav">
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="http://www.besomeoneworldwide.org/">
-            <img alt="Brand" src="..\..\images\rsz_besomon.png">
+            <img alt="Brand" src="\images\rsz_besomon.png">
           </a>
         </div>
       </div>
     </nav>
-    <!-- JUMBOTRON -->
-    <!-- <div class="jumbotron" id="jumbo">
-        <img src="imageedit_1_4438128899.jpg" class="img-responsive">    
-    </div> -->
-    <div class="container">
-<!--         <div id="water">
+    </br>
+    </br>
 
-        </div>
-        <div id="education">
-            
-        </div>
-        <div id= "ops"> -->
-            
-        </div>
-       <!-- THE GIVING TREE -->
-        <div class="row">
-            <div class="col-lg-offset-4" id="givingtree">
-                <img name="mapOfTree" src="..\..\images\rsz_treedraft7.png" usemap="#treemap" border="0" width="100%" />
-                <map name="treemap">
-                    <area class="ornaments" id="edu" href="education.html" shape="poly" coords="793,250,757,257,727,278,706,308,699,344,706,380,727,410,757,431,793,438,829,431,859,410,880,380,887,344,880,308,859,278,829,257" title="Education" data-toggle="tooltip" data-placement="bottom" data-container="area"/>
-                    <area class="ornaments" id="water" href="water.html" shape="poly" coords="444,448,405,456,372,478,350,511,342,550,350,589,372,622,405,644,444,652,483,644,516,622,538,589,546,550,538,511,516,478,483,456" title="Water" data-toggle="tooltip" data-placement="bottom" data-container="area"/>
-                    <area class="ornaments" id="ops" href="teachers.html" shape="poly" coords="829,550,785,559,748,583,724,620,715,664,724,708,748,745,785,769,829,778,873,769,910,745,934,708,943,664,934,620,910,583,873,559" title="Operations" data-toggle="tooltip" data-placement="bottom" data-container="area"/>
-                </map>
-            </div>
-        </div>
-    <!-- JustGiving API  -->
-    <section class="no-padding" id="graph">
-      <!-- <h1>This is where the graph goes</h1> -->
-    </section>
+            <section class="section--yellow wow fadeInLeft" id="head" data-wow-duration="2s">
 
-    <!-- contact info -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p>77 DELANCEY ST, NEW YORK, NY, 10002, UNITED STATES</p>
-                </div>
-                <div class="col-lg-4 col-lg-offset-2 text-center">
-                    <!-- <i class="fa fa-phone fa-3x wow bounceIn"></i> -->
-                    <p>+1 (718) 736-5881</p>
-                </div>
-                <div class="col-lg-4 text-center">
-                    <!-- <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i> -->
-                    <p><a href="mailto:INFO@BESOMEONEWORLDWIDE.ORG">INFO@BESOMEONEWORLDWIDE.ORG</a></p>
-                </div>
+                <h1>The Giving Tree</h1>
+
+            </section>
+            
+
+            <div class="clear"></div>
+            
+            <!-- 3 COLUMN DEMO  -->     
+            <div class="col_half"> 
+                <section class="section--green wow fadeInRight" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">
+                    <center><i class="ionicons ion-waterdrop"></i></center><br>
+                    <p>Water</p>
+                </section>
             </div>
-        </div>
-    </section>
-    </div>
+            
+            <div class="col_half end"> 
+                <section class="section--blue wow fadeInRight" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">
+                    <center><i class="ionicons ion-ios-book-outline"></i></center><br>
+                    <p>Education</p>
+                </section>        
+            </div>
+            
+            <div class="col_half"> 
+                <section class="section--purple wow fadeInRight" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+                    <center><i class="ionicons ion-ios-gear-outline"></i></center><br>
+                    <p>Operations</p>
+                </section>        
+            </div>
+
+            <div class="col_half end"> 
+                <section class="section--red wow fadeInRight" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">
+                    <center><i class="fa fa-diamond"></i></center><br>
+                    <p>Diamonds</p>
+                </section>        
+            </div>
+
+            <div class="clear"></div>
+            <!-- END / 3 COLUMN DEMO -->
+            
+            <div class="service-section">
+                <!-- <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.1s" style="visibility: visible; -webkit-animation-delay: 0.1s; -moz-animation-delay: 0.1s; animation-delay: 0.1s;">                     -->
+<!--                         <figure>        
+                            <img src="http://lorempixel.com/output/food-q-c-600-400-1.jpg" width="270" height="180"></img>
+                        </figure>  -->              
+                <!-- </div> -->
+
+<!--                 <div class="wow_imgage wow fadeInLeft" data-wow-delay="0.2s" style="visibility: visible; -webkit-animation-delay: 0.2s; -moz-animation-delay: 0.2s; animation-delay: 0.2s;">    
+                            <img src="http://lorempixel.com/output/food-q-c-600-400-2.jpg" width="270" height="180"></img>  
+                </div> -->
+
+<!--                 <div class="wow_imgage end wow fadeInLeft" data-wow-delay="0.3s" style="visibility: visible; -webkit-animation-delay: 0.3s; -moz-animation-delay: 0.3s; animation-delay: 0.3s;">
+            <img src="http://lorempixel.com/output/food-q-c-600-400-3.jpg" width="270" height="180"></img>
+                </div> -->
+                </div>
+          <!--.SERVICES SECTION-->
+                <div class="clear"></div>
+                
+                <section class="section--yellow wow fadeInDown" id="footer" data-wow-duration="1s">
+                    <center><h1>Contact Information</h1></center>
+                </section>
+                      
+
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
 
-    <!-- image map resizer library -->
-    <script type="text/javascript" src="..\scripts\imageMapResizer.min.js"></script>
-    <script type="text/javascript">
-        $('map').imageMapResize();
-    </script>
-
-    <!-- Bootstrap Tooltip Tether Library -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.1.1/js/tether.min.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha/js/bootstrap.min.js"></script>
 
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script type="text/javascript" src="public\scripts\script2.js"></script>
     <!-- Custom Script -->
-    <script type="text/javascript" src="..\scripts\scripts.js"></script>
+    <script type="text/javascript" src="public\scripts\scripts.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
 </body>
-
-</html>
+</html>    
