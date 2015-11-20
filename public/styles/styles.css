@@ -3,16 +3,17 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     width: 100%;
     height: 100%;
+
 }
 
 .navbar-brand {
     margin-top: -15px;
 }
 
-#mapOfTree {
+/*#mapOfTree {
     height:auto;
     max-width: 100%;
-}
+}*/
 
 .descTxt {
 	color: green;
@@ -88,13 +89,27 @@ body {
     text-align: center;
     background-color: #F5F5F5;
     color: #666666;
-    background-image: url(http://subtlepatterns.com/patterns/stardust.png); 
-    background-position: initial initial; 
-    background-repeat: initial initial;
+/*    background-image: url('../../images/new deser.png'); */
+    background-size: cover;
+    padding-top: 50px;
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+   /* background-size: cover; 
+    background-repeat: initial initial;*/
     padding-left: 100px;
     padding-right: 100px;
+    font-family: 'Indie Flower', cursive;
 }
 
+#titleTree {
+    font-size: 100px;
+    color: green;
+}
+
+.titleTreeDesc {
+    font-size: 20px;
+    color: green;
+}
 .clear  { 
     clear: both;
     display: block;
@@ -167,6 +182,7 @@ i{
 
 .section--blue {
     background-color: #33CCF7;
+    opacity: 0.5;
 }
 
 .section--yellow {
@@ -246,6 +262,7 @@ i{
 a { text-decoration: none; color: #666666;}
 a:hover, a:active { outline: 0; color: #666666; }
 
+body { background-color:#333; }
 
 
 .col_half { 
@@ -534,33 +551,39 @@ img::-moz-selection {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#snow{
+    background: none;
+    font-family: Androgyne;
+    background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:1;
+    -webkit-animation: snow 10s linear infinite;
+    -moz-animation: snow 10s linear infinite;
+    -ms-animation: snow 10s linear infinite;
+    animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}   
 
