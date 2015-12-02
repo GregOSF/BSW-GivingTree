@@ -3,24 +3,19 @@ body {
     font-family: Merriweather,'Helvetica Neue',Arial,sans-serif;
     width: 100%;
     height: 100%;
-
 }*/
-
 .navbar-brand {
     margin-top: -15px;
 }
-
 /*#mapOfTree {
     height:auto;
     max-width: 100%;
 }*/
-
 .descTxt {
-	color: green;
-	text-align: center;
-	font-size: 16px;
+    color: green;
+    text-align: center;
+    font-size: 16px;
 }
-
 #jumbo {
     height: auto;    
     background-color: rgba(0,0,0,0);
@@ -32,11 +27,9 @@ body {
     margin-right: auto;
     padding-top: 100px;
 }
-
 #contact{
   background-color: #F5F5F5;
 }
-
 .tooltip{
     margin-left: 100px;
     margin-top: 100px;
@@ -45,14 +38,11 @@ body {
     background-color: white;
     color: white;
 }
-
 #title{
     text-align: center;
     margin-bottom: 50px;
 }
-
 .charity{
-
     border: solid 3px ;
     min-height: 300px;
     min-width: 400px;
@@ -62,16 +52,11 @@ body {
     margin-right: 10px;
     margin-bottom: 40px;
     border-radius: 10px;
-
-
-
 }
-
 #allDonations{
     margin-left: 50px;
     margin-right: 50px;
     margin-top: 75px;
-
 }
 #portfolio{
     margin-top: 100px;
@@ -79,9 +64,13 @@ body {
 #footer{
     background-color: #222;
     color: white;
+    height: 225px;
 }
-#footer h1{
-    margin-top: -25px;
+#footer p{
+    font-size: 18px;
+}
+#con{
+    display: inline-block;
 }
 body {
     overflow: scroll;
@@ -100,14 +89,12 @@ body {
     padding-right: 100px;
     font-family: 'Indie Flower', cursive;
 }
-
 #titleTree {
     font-size: 100px;
     color: green;
 }
-
 .titleTreeDesc {
-    font-size: 20px;
+    font-size: 28px;
     color: green;
 }
 .clear  { 
@@ -125,7 +112,6 @@ body {
     line-height: 0;
     height: 0;
 }
-
 h1, h2, h3, h4, h5, h6 {
     margin: 30px 0;
     font-weight: 300;
@@ -136,12 +122,10 @@ h3 { font-size: 22px; }
 h4 { font-size: 18px; }
 h5 { font-size: 16px; }
 h6 { font-size: 14px; }
-
 #container {
     width:  860px;
     margin: 0 auto;
 }
-
 section {
     position: relative;
     height: 200px;
@@ -158,7 +142,6 @@ section, p{
     padding-top: 50px;
     margin-top:50px;
 }
-
 i{
     font-size: 400%;
     /*color: #262626;*/
@@ -167,57 +150,45 @@ i{
     font-size: 350%;
     /*color: #262626;*/
 }
-
 .section--white {
     background-color: #FFFFFF;
 }
-
 .section--red {
     background-color: #E74C3C;
 }
-
 .section--purple {
     background-color: #D6A8E9;
 }
-
 .section--blue {
     background-color: #33CCF7;
     opacity: 0.5;
 }
-
 .section--yellow {
     background-color: #F4E9B4;
 }
-
 .section--green {
     background-color: #80D99D;
 }
 .section--cyan{
     background-color: #80D99D;
 }
-
 .section--pale{
     background-color: #F4E9B4;
 }
-
 .col_third section { margin: 0; }
-
 .icn_red { color: #FF3D6A; }
 .icn_purple { color: #9B59B6; }
 .icn_blue{ color: #3498DB; }
 .icn_yellow { color: #F1C40F; }
 .icn_green { color: #80D99D; }
-
 /*-=-=-=-=-=-=-=-=-=-*/
 /* Wow Image */
 /*-=-=-=-=-=-=-=-=-= */
-
 .service-section {
     margin: 20px 0;
     position: relative;
     overflow: hidden;
 }
-
 .wow_imgage {
     position: relative;
     float: left;
@@ -225,15 +196,12 @@ i{
     width: 270px;
     height: 180px;
 }
-
 .wow_imgage img {
     border: 4px solid #e4e4e1;
 }
-
 /*-=-=-=-=-=-=-=-=-=-*/
 /* Column Grids */
 /*-=-=-=-=-=-=-=-=-= */
-
 .col_third { width: 32%; }
 .col_fourth { width: 23.5%; }
 .col_fifth { width: 18.4%; }
@@ -254,34 +222,25 @@ i{
     margin-bottom: 20px;
 }
 .end { margin-right: 0 !important; }
-
 /*-=-=-=-=-=-=-=-=-=-*/
 /* Links */
 /*-=-=-=-=-=-=-=-=-= */
-
 a { text-decoration: none; color: #666666;}
 a:hover, a:active { outline: 0; color: #666666; }
-
 body { background-color:#333; }
-
-
 .col_half { 
     width: 49%; 
     background-color: blue;
 }
-
-
 .col_half .text {
     position:relative;
     bottom:30px;
     left:0px;
     visibility:hidden;
 }
-
 .col_half:hover{
     background: rgba(255,255,255, .5);
 }
-
 .col_half:hover .text {
     visibility:visible;
     margin-top: -100px;
@@ -293,7 +252,6 @@ body { background-color:#333; }
 .col_half:hover p {
     font-size: 16px;
 }
-
 .col_half:hover .title{
     /*margin-top: -80px;*/
     font-size: 16px;
@@ -301,11 +259,6 @@ body { background-color:#333; }
 .col_half:hover b{
     text-align: center;
 }
-
-
-
-
-
 /*html,
 body {
     width: 100%;
@@ -313,21 +266,17 @@ body {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #292D3D;
 }*/
-
-
 a {
     color: #f2f2f2;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
 a:hover,
 a:focus {
     color: #C0C2CE ;
     text-decoration: none;
 }
-
 h1,
 h2,
 h3,
@@ -336,40 +285,31 @@ h5,
 h6 {
    /* font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
 }
-
+#con > i{
+    /*font-size: 100px;*/
+}
 p {
     margin-bottom: 20px;
     font-size: 16px;
     line-height: 1.5;
 }
-
 .bg-primary {
     background-color: #292d3d;
 }
-
 .bg-dark {
     color: #fff;
     background-color: #222;
 }
-
-
 section {
     padding: 100px 0;
 }
-
 aside {
     padding: 50px 0;
 }
-
 .no-padding {
     padding: 0;
 }
-
-
-
 @media(min-width:768px) {
-
-
 header {
     position: relative;
     width: 100%;
@@ -383,38 +323,31 @@ header {
     background-size: cover;
     -o-background-size: cover;
 }
-
 header .header-content {
     position: relative;
     width: 100%;
     padding: 100px 15px;
     text-align: center;
 }
-
 header .header-content .header-content-inner h1 {
     margin-top: 0;
     margin-bottom: 0;
     text-transform: uppercase;
     font-weight: 700;
 }
-
-
 header .header-content .header-content-inner hr {
     margin: 30px auto;
 }
-
 header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
     color: rgba(255,255,255,.7);
 }
-
 @media(min-width:768px) {
     header {
         min-height: 100%;
     }
-
     header .header-content {
         position: absolute;
         top: 50%;
@@ -423,13 +356,11 @@ header .header-content .header-content-inner p {
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
     }
-
     header .header-content .header-content-inner {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
     }
-
     header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
@@ -437,34 +368,27 @@ header .header-content .header-content-inner p {
         font-size: 18px;
     }
 }
-
 .section-heading {
     margin-top: 0;
 }
-
 .service-box {
     margin: 50px auto 0;
     max-width: 400px;
 }
-
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
     }
 }
-
 .service-box p {
     margin-bottom: 0;
 }
-
 .portfolio-box {
     display: block;
     position: relative;
     margin: 0 auto;
     max-width: 650px;
 }
-
-
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
@@ -480,7 +404,6 @@ header .header-content .header-content-inner p {
     -moz-transition: all .35s;
     transition: all .35s;
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
     position: absolute;
     top: 50%;
@@ -489,68 +412,51 @@ header .header-content .header-content-inner p {
     transform: translateY(-50%);
     /*opacity: 0.9;*/
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     padding: 0 15px;
     /*font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;*/
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
 }
-
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
     font-size: 15px;
 }
-
 .portfolio-box:hover .portfolio-box-caption {
     opacity: .8;
 }
-
 @media(min-width:768px) {
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-        font-size: 16px;
+        font-size: 18px;
     }
-
     .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-        font-size: 22px;
+        font-size: 18px;
     }
 }
-
-
 .text-primary {
     color: #292d3d;
 }
-
-
 ::-moz-selection {
     text-shadow: none;
     color: #fff;
     background: #222;
 }
-
 ::selection {
     text-shadow: none;
     color: #fff;
     background: #222;
 }
-
 img::selection {
     color: #fff;
     background: 0 0;
 }
-
 img::-moz-selection {
     color: #fff;
     background: 0 0;
 }
-
-
-
-
 #snow{
     background: none;
     font-family: Androgyne;
@@ -586,4 +492,3 @@ img::-moz-selection {
   50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
   100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
 }   
-
